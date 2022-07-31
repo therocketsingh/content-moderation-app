@@ -8,7 +8,7 @@ from zipfile import ZipFile
 bar = st.progress(0)
 
 # 1. API
-api_key = st.secrets['43cb679e82e941fe84a31d61da476639']
+api_key = st.secrets['api_key']
 
 # 2. Retrieving audio file from YouTube video
 def get_yt(inputURL):
